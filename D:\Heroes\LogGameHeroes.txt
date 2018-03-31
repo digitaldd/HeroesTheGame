@@ -1,0 +1,444 @@
+DataBase connected
+Begin create table LightTeam
+Table created done
+Selected Light Team:2
+Peoples
+Fill table done
+ID = 1
+Race = Peoples
+Character = Magician
+Count = 1
+
+ID = 2
+Race = Peoples
+Character = Crossbowman
+Count = 3
+
+ID = 3
+Race = Peoples
+Character = Warrior
+Count = 4
+
+Table output done
+All connections closed
+DataBase connected
+Begin create table DarkTeam
+Table created done
+Selected Dark Team:1
+Orks
+Fill table done
+ID = 1
+Race = Orks
+Character = Shaman
+Count = 1
+
+ID = 2
+Race = Orks
+Character = Archer
+Count = 3
+
+ID = 3
+Race = Orks
+Character = Goblin
+Count = 4
+
+Table output done
+All connections closed
+DataBase connected
+
+Get ready: LightTeam attacks
+Character with status Super in LightTeam don't found. Randomize launch = 2
+Selected attacker character: Peoples Crossbowman Count: 3 Health: 100 Uses the skill: Attack 3
+Selected defending character: Orks Shaman Count: 1 Health: 100
+Fill table done
+Saved done in Health 97
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 100 Uses the skill: Attack with a sword 18
+Selected defending character: Orks Archer Count: 3 Health: 100
+Fill table done
+Saved done in Health 82
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 100 Uses the skill: Primary: Attack with a sword 18
+Selected defending character: Orks Shaman Count: 1 Health: 97
+Fill table done
+Saved done in Health 79
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam don't found. Randomize launch = 2
+Selected attacker character: Orks Archer Count: 3 Health: 82 Uses the skill: Primary: Archery 3
+Selected defending character: Peoples Magician Count: 1 Health: 100
+Fill table done
+Saved done in Health 97
+Character with status Super in DarkTeam don't found. Randomize launch = 2
+Selected attacker character: Orks Archer Count: 3 Health: 82 Uses the skill: Primary: Archery 3
+Selected defending character: Peoples Magician Count: 1 Health: 97
+Fill table done
+Saved done in Health 94
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 79 Uses the skill: Take off status Super on character another team 0
+Selected defending character: Peoples Magician Count: 1 Health: 94
+Fill table done
+Saved done in Health 94
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam don't found. Randomize launch = 2
+Selected attacker character: Orks Archer Count: 3 Health: 82 Uses the skill: Attack with knife 2
+Selected defending character: Peoples Warrior Count: 4 Health: 100
+Fill table done
+Saved done in Health 98
+Character with status Super in DarkTeam don't found. Randomize launch = 3
+Selected attacker character: Orks Goblin Count: 4 Health: 100 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Peoples Magician Count: 1 Health: 94
+Fill table done
+Saved done in Health 74
+Character with status Super in DarkTeam don't found. Randomize launch = 2
+Selected attacker character: Orks Archer Count: 3 Health: 82 Uses the skill: Attack with knife 2
+Selected defending character: Peoples Crossbowman Count: 3 Health: 100
+Fill table done
+Saved done in Health 98
+
+Get ready: LightTeam attacks
+Character with status Super in LightTeam don't found. Randomize launch = 1
+Selected attacker character: Peoples Magician Count: 1 Health: 74 Uses the skill: Magic damage 4
+Selected defending character: Orks Archer Count: 3 Health: 82
+Fill table done
+Saved done in Health 78
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 98 Uses the skill: Primary: Attack with a sword 18
+Selected defending character: Orks Shaman Count: 1 Health: 79
+Fill table done
+Saved done in Health 61
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 98 Uses the skill: Primary: Attack with a sword 18
+Selected defending character: Orks Archer Count: 3 Health: 78
+Fill table done
+Saved done in Health 60
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam don't found. Randomize launch = 3
+Selected attacker character: Orks Goblin Count: 4 Health: 100 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Peoples Warrior Count: 4 Health: 98
+Fill table done
+Saved done in Health 78
+Character with status Super in DarkTeam don't found. Randomize launch = 3
+Selected attacker character: Orks Goblin Count: 4 Health: 100 Uses the skill: Attack with a sword 18
+Selected defending character: Peoples Magician Count: 1 Health: 74
+Fill table done
+Saved done in Health 56
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 61 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Peoples Warrior Count: 4 Health: 78
+Fill table done
+Saved done in Health 78
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 61 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Peoples Magician Count: 1 Health: 56
+Fill table done
+Saved done in Health 56
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 61 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Peoples Crossbowman Count: 3 Health: 98
+Fill table done
+Saved done in Health 98
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 61 Uses the skill: Take off status Super on character another team 0
+Selected defending character: Peoples Warrior Count: 4 Health: 78
+Fill table done
+Saved done in Health 78
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 61 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Peoples Magician Count: 1 Health: 56
+Fill table done
+Saved done in Health 56
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 61 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Peoples Warrior Count: 4 Health: 78
+Fill table done
+Saved done in Health 78
+Character with status Super in DarkTeam don't found. Randomize launch = 2
+Selected attacker character: Orks Archer Count: 3 Health: 60 Uses the skill: Attack with knife 2
+Selected defending character: Peoples Crossbowman Count: 3 Health: 98
+Fill table done
+Saved done in Health 96
+
+Get ready: LightTeam attacks
+Character with status Super in LightTeam don't found. Randomize launch = 1
+Selected attacker character: Peoples Magician Count: 1 Health: 56 Uses the skill: Magic damage 4
+Selected defending character: Orks Archer Count: 3 Health: 60
+Fill table done
+Saved done in Health 56
+Character with status Super in LightTeam don't found. Randomize launch = 2
+Selected attacker character: Peoples Crossbowman Count: 3 Health: 96 Uses the skill: Attack 3
+Selected defending character: Orks Goblin Count: 4 Health: 100
+Fill table done
+Saved done in Health 97
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 78 Uses the skill: Primary: Attack with a sword 18
+Selected defending character: Orks Archer Count: 3 Health: 56
+Fill table done
+Saved done in Health 38
+
+Get ready: LightTeam attacks
+Character with status Super in LightTeam don't found. Randomize launch = 1
+Selected attacker character: Peoples Magician Count: 1 Health: 56 Uses the skill: Magic damage 4
+Selected defending character: Orks Archer Count: 3 Health: 38
+Fill table done
+Saved done in Health 34
+Character with status Super in LightTeam don't found. Randomize launch = 1
+Selected attacker character: Peoples Magician Count: 1 Health: 56 Uses the skill: Magic damage 4
+Selected defending character: Orks Goblin Count: 4 Health: 97
+Fill table done
+Saved done in Health 93
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 78 Uses the skill: Primary: Attack with a sword 18
+Selected defending character: Orks Goblin Count: 4 Health: 93
+Fill table done
+Saved done in Health 75
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 61 Uses the skill: Take off status Super on character another team 0
+Selected defending character: Peoples Magician Count: 1 Health: 56
+Fill table done
+Saved done in Health 56
+Character with status Super in DarkTeam don't found. Randomize launch = 3
+Selected attacker character: Orks Goblin Count: 4 Health: 75 Uses the skill: Attack with a sword 18
+Selected defending character: Peoples Crossbowman Count: 3 Health: 96
+Fill table done
+Saved done in Health 78
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 61 Uses the skill: Take off status Super on character another team 0
+Selected defending character: Peoples Warrior Count: 4 Health: 78
+Fill table done
+Saved done in Health 78
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 61 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Peoples Warrior Count: 4 Health: 78
+Fill table done
+Saved done in Health 78
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 61 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Peoples Magician Count: 1 Health: 56
+Fill table done
+Saved done in Health 56
+Character with status Super in DarkTeam don't found. Randomize launch = 2
+Selected attacker character: Orks Archer Count: 3 Health: 34 Uses the skill: Attack with knife 2
+Selected defending character: Peoples Crossbowman Count: 3 Health: 78
+Fill table done
+Saved done in Health 76
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam don't found. Randomize launch = 2
+Selected attacker character: Orks Archer Count: 3 Health: 34 Uses the skill: Primary: Archery 3
+Selected defending character: Peoples Crossbowman Count: 3 Health: 76
+Fill table done
+Saved done in Health 73
+Character with status Super in DarkTeam don't found. Randomize launch = 3
+Selected attacker character: Orks Goblin Count: 4 Health: 75 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Peoples Magician Count: 1 Health: 56
+Fill table done
+Saved done in Health 36
+Character with status Super in DarkTeam don't found. Randomize launch = 2
+Selected attacker character: Orks Archer Count: 3 Health: 34 Uses the skill: Primary: Archery 3
+Selected defending character: Peoples Warrior Count: 4 Health: 78
+Fill table done
+Saved done in Health 75
+
+Get ready: LightTeam attacks
+Character with status Super in LightTeam don't found. Randomize launch = 1
+Selected attacker character: Peoples Magician Count: 1 Health: 36 Uses the skill: Magic damage 4
+Selected defending character: Orks Goblin Count: 4 Health: 75
+Fill table done
+Saved done in Health 71
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 75 Uses the skill: Primary: Attack with a sword 18
+Selected defending character: Orks Shaman Count: 1 Health: 61
+Fill table done
+Saved done in Health 43
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 75 Uses the skill: Attack with a sword 18
+Selected defending character: Orks Goblin Count: 4 Health: 71
+Fill table done
+Saved done in Health 53
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam don't found. Randomize launch = 2
+Selected attacker character: Orks Archer Count: 3 Health: 34 Uses the skill: Attack with knife 2
+Selected defending character: Peoples Magician Count: 1 Health: 36
+Fill table done
+Saved done in Health 34
+Character with status Super in DarkTeam don't found. Randomize launch = 3
+Selected attacker character: Orks Goblin Count: 4 Health: 53 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Peoples Crossbowman Count: 3 Health: 73
+Fill table done
+Saved done in Health 53
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 43 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Peoples Magician Count: 1 Health: 34
+Fill table done
+Saved done in Health 34
+
+Get ready: LightTeam attacks
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 75 Uses the skill: Attack with a sword 18
+Selected defending character: Orks Goblin Count: 4 Health: 53
+Fill table done
+Saved done in Health 35
+Character with status Super in LightTeam don't found. Randomize launch = 2
+Selected attacker character: Peoples Crossbowman Count: 3 Health: 53 Uses the skill: Primary: Crossbow shoot 5
+Selected defending character: Orks Shaman Count: 1 Health: 43
+Fill table done
+Saved done in Health 38
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 75 Uses the skill: Attack with a sword 18
+Selected defending character: Orks Archer Count: 3 Health: 34
+Fill table done
+Saved done in Health 16
+
+Get ready: LightTeam attacks
+Character with status Super in LightTeam don't found. Randomize launch = 2
+Selected attacker character: Peoples Crossbowman Count: 3 Health: 53 Uses the skill: Primary: Crossbow shoot 5
+Selected defending character: Orks Archer Count: 3 Health: 16
+Fill table done
+Saved done in Health 11
+Character with status Super in LightTeam don't found. Randomize launch = 1
+Selected attacker character: Peoples Magician Count: 1 Health: 34 Uses the skill: Magic damage 4
+Selected defending character: Orks Goblin Count: 4 Health: 35
+Fill table done
+Saved done in Health 31
+Character with status Super in LightTeam don't found. Randomize launch = 1
+Selected attacker character: Peoples Magician Count: 1 Health: 34 Uses the skill: Primary: Add status Super on character 0
+Selected defending character: Orks Shaman Count: 1 Health: 38
+Fill table done
+Saved done in Health 38
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 38 Uses the skill: Take off status Super on character another team 0
+Selected defending character: Peoples Magician Count: 1 Health: 34
+Fill table done
+Saved done in Health 34
+Character with status Super in DarkTeam don't found. Randomize launch = 2
+Selected attacker character: Orks Archer Count: 3 Health: 11 Uses the skill: Primary: Archery 3
+Selected defending character: Peoples Magician Count: 1 Health: 34
+Fill table done
+Saved done in Health 31
+Character with status Super in DarkTeam don't found. Randomize launch = 2
+Selected attacker character: Orks Archer Count: 3 Health: 11 Uses the skill: Primary: Archery 3
+Selected defending character: Peoples Warrior Count: 4 Health: 75
+Fill table done
+Saved done in Health 72
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 38 Uses the skill: Take off status Super on character another team 0
+Selected defending character: Peoples Magician Count: 1 Health: 31
+Fill table done
+Saved done in Health 31
+Character with status Super in DarkTeam don't found. Randomize launch = 3
+Selected attacker character: Orks Goblin Count: 4 Health: 31 Uses the skill: Attack with a sword 18
+Selected defending character: Peoples Warrior Count: 4 Health: 72
+Fill table done
+Saved done in Health 54
+Character with status Super in DarkTeam don't found. Randomize launch = 2
+Selected attacker character: Orks Archer Count: 3 Health: 11 Uses the skill: Primary: Archery 3
+Selected defending character: Peoples Warrior Count: 4 Health: 54
+Fill table done
+Saved done in Health 51
+
+Get ready: LightTeam attacks
+Character with status Super in LightTeam don't found. Randomize launch = 2
+Selected attacker character: Peoples Crossbowman Count: 3 Health: 53 Uses the skill: Primary: Crossbow shoot 5
+Selected defending character: Orks Archer Count: 3 Health: 11
+Fill table done
+Saved done in Health 6
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 51 Uses the skill: Primary: Attack with a sword 18
+Selected defending character: Orks Archer Count: 3 Health: 6
+Fill table done
+Saved done in Health -12
+Deleted from table done
+Character with status Super in LightTeam don't found. Randomize launch = 2
+Selected attacker character: Peoples Crossbowman Count: 3 Health: 53 Uses the skill: Primary: Crossbow shoot 5
+Selected defending character: Orks Shaman Count: 1 Health: 38
+Fill table done
+Saved done in Health 33
+
+Get ready: LightTeam attacks
+Character with status Super in LightTeam don't found. Randomize launch = 2
+Selected attacker character: Peoples Crossbowman Count: 3 Health: 53 Uses the skill: Attack 3
+Selected defending character: Orks Shaman Count: 1 Health: 33
+Fill table done
+Saved done in Health 30
+Character with status Super in LightTeam don't found. Randomize launch = 2
+Selected attacker character: Peoples Crossbowman Count: 3 Health: 53 Uses the skill: Attack 3
+Selected defending character: Orks Goblin Count: 4 Health: 31
+Fill table done
+Saved done in Health 28
+Character with status Super in LightTeam don't found. Randomize launch = 2
+Selected attacker character: Peoples Crossbowman Count: 3 Health: 53 Uses the skill: Attack 3
+Selected defending character: Orks Shaman Count: 1 Health: 30
+Fill table done
+Saved done in Health 27
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam don't found. Randomize launch = 3
+Selected attacker character: Orks Goblin Count: 4 Health: 28 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Peoples Crossbowman Count: 3 Health: 53
+Fill table done
+Saved done in Health 33
+Character with status Super in DarkTeam don't found. Randomize launch = 3
+Selected attacker character: Orks Goblin Count: 4 Health: 28 Uses the skill: Attack with a sword 18
+Selected defending character: Peoples Warrior Count: 4 Health: 51
+Fill table done
+Saved done in Health 33
+
+Get ready: LightTeam attacks
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 33 Uses the skill: Primary: Attack with a sword 18
+Selected defending character: Orks Goblin Count: 4 Health: 28
+Fill table done
+Saved done in Health 10
+Character with status Super in LightTeam don't found. Randomize launch = 2
+Selected attacker character: Peoples Crossbowman Count: 3 Health: 33 Uses the skill: Primary: Crossbow shoot 5
+Selected defending character: Orks Shaman Count: 1 Health: 27
+Fill table done
+Saved done in Health 22
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 33 Uses the skill: Attack with a sword 18
+Selected defending character: Orks Shaman Count: 1 Health: 22
+Fill table done
+Saved done in Health 4
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam don't found. Randomize launch = 1
+Selected attacker character: Orks Shaman Count: 1 Health: 4 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Peoples Magician Count: 1 Health: 31
+Fill table done
+Saved done in Health 31
+Character with status Super in DarkTeam don't found. Randomize launch = 3
+Selected attacker character: Orks Goblin Count: 4 Health: 10 Uses the skill: Attack with a sword 18
+Selected defending character: Peoples Warrior Count: 4 Health: 33
+Fill table done
+Saved done in Health 15
+
+Get ready: LightTeam attacks
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 15 Uses the skill: Primary: Attack with a sword 18
+Selected defending character: Orks Goblin Count: 4 Health: 10
+Fill table done
+Saved done in Health -8
+Deleted from table done
+Character with status Super in LightTeam don't found. Randomize launch = 3
+Selected attacker character: Peoples Warrior Count: 4 Health: 15 Uses the skill: Primary: Attack with a sword 18
+Selected defending character: Orks Shaman Count: 1 Health: 4
+Fill table done
+Saved done in Health -14
+Deleted from table done
+LightTeam Winner!
