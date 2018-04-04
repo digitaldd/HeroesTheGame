@@ -6,12 +6,12 @@ public class StartGameHeroes {
     static final int COUNT_MAGES_ON_TEAM = 1;
     static final int COUNT_ARCHERS_ON_TEAM = 3;
     static final int COUNT_WARRIORS_ON_TEAM = 4;
+    static final int STARTING_HEALTH = 100;
 
     public static void main(String[] args) throws Exception {
         AddTeams.addTableLight();
         AddTeams.addTableDark();
         Game.playGame();
 
-        DBase.closeDB();
     }
 }

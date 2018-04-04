@@ -2,6 +2,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.ArrayList;
 import java.util.List;
 
 public class DBase {
@@ -64,7 +65,7 @@ public class DBase {
     }
 
     public static String readDBField(String fieldName, String tableName, int id) throws Exception {
-        statement = connection.createStatement();
+        //statement = connection.createStatement();
         ResultSet = statement.executeQuery("SELECT " + fieldName + " FROM " + tableName + " WHERE ID = " + id + ";");
         String fieldValue = "";
         while (ResultSet.next()) {
@@ -83,9 +84,19 @@ public class DBase {
         return result;
     }
 
+    public static List<Integer> readDBCommand2(String command) throws Exception {
+        statement = connection.createStatement();
+        ResultSet = statement.executeQuery(command);
+        List<Integer> list = new ArrayList<>();
+        while (ResultSet.next()) {
+            list.add(Integer.parseInt(ResultSet.getObject(1).toString()));
+        }
+        return list;
+    }
+
     // close all
     public static void closeDB() throws Exception {
-        connection = DriverManager.getConnection("jdbc:sqlite:StartGameHeroes.db");
+        //connection = DriverManager.getConnection("jdbc:sqlite:StartGameHeroes.db");
 
         ResultSet.close();
         statement.close();

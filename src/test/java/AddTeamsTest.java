@@ -2,7 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 
-public class AddTeamTest {
+public class AddTeamsTest {
 
     public static void callSelectedTeamTest() {
         Assert.assertEquals("CallSelectedTeamTest", true,

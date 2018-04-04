@@ -37,12 +37,16 @@ public class AddTeams {
     public static List<String> createLightTeamElfs() {
         String dbCommand = "INSERT INTO 'LightTeam' ('Race', 'Priority','Character','FirstSkillName', " +
                 "'FirstSkillDamage','SecondSkillName','SecondSkillDamage','Health','Count')";
-        String charMagicianElf = "VALUES ('Elf', '0', 'Magician', 'Primary: Add status Super on character','0'," +
-                "'Magic damage','10', '100', '" + Integer.toString(StartGameHeroes.COUNT_MAGES_ON_TEAM) + "')";
+        String charMagicianElf =
+                "VALUES ('Elf', '0', 'Magician', 'Primary: Add status Super on character his team','0'," +
+                        "'Magic damage','10', '" + StartGameHeroes.STARTING_HEALTH + "', '" + Integer
+                        .toString(StartGameHeroes.COUNT_MAGES_ON_TEAM) + "')";
         String charArcherElf = "VALUES ('Elf', '0', 'Archer', 'Primary: Archery','7', 'Attack','3'," +
-                "'100', '" + Integer.toString(StartGameHeroes.COUNT_ARCHERS_ON_TEAM) + "')";
+                "'" + StartGameHeroes.STARTING_HEALTH + "', '" + Integer.toString
+                (StartGameHeroes.COUNT_ARCHERS_ON_TEAM) + "')";
         String charWarriorElf = "VALUES ('Elf', '0', 'Warrior', 'Primary: Attack with a sword', '15'," +
-                "'Attack with a sword', '15', '100','" + Integer.toString(StartGameHeroes.COUNT_WARRIORS_ON_TEAM) + "')";
+                "'Attack with a sword', '15', '" + StartGameHeroes.STARTING_HEALTH + "','" + Integer
+                .toString(StartGameHeroes.COUNT_WARRIORS_ON_TEAM) + "')";
         List<String> elfsTeamChar = new ArrayList<>();
         elfsTeamChar.add(dbCommand + charMagicianElf);
         elfsTeamChar.add(dbCommand + charArcherElf);
@@ -53,12 +57,17 @@ public class AddTeams {
     public static List<String> createLightTeamPeoples() {
         String dbCommand = "INSERT INTO 'LightTeam' ('Race', 'Priority','Character','FirstSkillName', " +
                 "'FirstSkillDamage','SecondSkillName','SecondSkillDamage','Health','Count')";
-        String charMagicianPeople = "VALUES ('Peoples', '0', 'Magician', 'Primary: Add status Super on character','0'," +
-                "'Magic damage', '4', '100','" + Integer.toString(StartGameHeroes.COUNT_MAGES_ON_TEAM) + "')";
+        String charMagicianPeople =
+                "VALUES ('Peoples', '0', 'Magician', 'Primary: Add status Super on character his team','0'," +
+                        "'Magic damage', '4', '" + StartGameHeroes.STARTING_HEALTH + "','" + Integer
+                        .toString(StartGameHeroes.COUNT_MAGES_ON_TEAM) + "')";
         String charArcherPeople = "VALUES ('Peoples', '0', 'Crossbowman', 'Primary: Crossbow shoot','5'," +
-                "'Attack','3', '100','" + Integer.toString(StartGameHeroes.COUNT_ARCHERS_ON_TEAM) + "')";
+                "'Attack','3', '" + StartGameHeroes.STARTING_HEALTH + "','" + Integer
+                .toString(StartGameHeroes.COUNT_ARCHERS_ON_TEAM) + "')";
         String charWarriorPeople = "VALUES ('Peoples', '0', 'Warrior', 'Primary: Attack with a sword', '18'," +
-                "'Attack with a sword', '18', '100','" + Integer.toString(StartGameHeroes.COUNT_WARRIORS_ON_TEAM) + "')";
+                "'Attack with a sword', '18', '" + StartGameHeroes.STARTING_HEALTH + "','" + Integer
+                .toString(StartGameHeroes.COUNT_WARRIORS_ON_TEAM)
+                + "')";
         List<String> peoplesTeamChar = new ArrayList<>();
         peoplesTeamChar.add(dbCommand + charMagicianPeople);
         peoplesTeamChar.add(dbCommand + charArcherPeople);
@@ -69,13 +78,16 @@ public class AddTeams {
     public static List<String> createDarkTeamOrks() {
         String dbCommand = "INSERT INTO 'DarkTeam' ('Race', 'Priority','Character','FirstSkillName', " +
                 "'FirstSkillDamage','SecondSkillName','SecondSkillDamage','Health','Count')";
-        String charMagicianOrk = "VALUES ('Orks', '0', 'Shaman', 'Primary: Add status Super on character his team','0'," +
-                "'Take off status Super on character another team', '0', '100','" + Integer
-                .toString(StartGameHeroes.COUNT_MAGES_ON_TEAM) + "')";
-        String charArcherOrk = "VALUES ('Orks', '0', 'Archer','Primary: Archery', '3','Attack with knife', '2', '100','"
-                + Integer.toString(StartGameHeroes.COUNT_ARCHERS_ON_TEAM) + "')";
+        String charMagicianOrk =
+                "VALUES ('Orks', '0', 'Shaman', 'Primary: Add status Super on character his team','0'," +
+                        "'Take off status Super on character another team', '0', '" + StartGameHeroes.STARTING_HEALTH
+                        + "','" + Integer.toString(StartGameHeroes.COUNT_MAGES_ON_TEAM) + "')";
+        String charArcherOrk = "VALUES ('Orks', '0', 'Archer','Primary: Archery', '3','Attack with knife', '2', '"
+                + StartGameHeroes.STARTING_HEALTH + "','" + Integer.toString(StartGameHeroes.COUNT_ARCHERS_ON_TEAM)
+                + "')";
         String charWarriorOrk = "VALUES ('Orks', '0', 'Goblin', 'Primary: Attack with a truncheon', '20'," +
-                "'Attack with a sword', '18', '100','" + Integer.toString(StartGameHeroes.COUNT_WARRIORS_ON_TEAM) + "')";
+                "'Attack with a sword', '18', '" + StartGameHeroes.STARTING_HEALTH + "','" + Integer
+                .toString(StartGameHeroes.COUNT_WARRIORS_ON_TEAM) + "')";
         List<String> orksTeamChar = new ArrayList<>();
         orksTeamChar.add(dbCommand + charMagicianOrk);
         orksTeamChar.add(dbCommand + charArcherOrk);
@@ -87,13 +99,15 @@ public class AddTeams {
         String dbCommand = "INSERT INTO 'DarkTeam' ('Race', 'Priority','Character','FirstSkillName', " +
                 "'FirstSkillDamage','SecondSkillName','SecondSkillDamage','Health','Count')";
         String charMagicianUndead =
-                "VALUES ('Undead', '0', 'Necromancer', 'Primary: Reduce damage of another team member by 50% (1 move)','0'," +
-                        "'Attack', '5', '100','" + Integer.toString(StartGameHeroes.COUNT_MAGES_ON_TEAM) + "')";
-        String charArcherUndead =
-                "VALUES ('Undead', '0', 'Hunter', 'Primary: Archery', '4', 'Attack', '2'," +
-                        "'100','" + Integer.toString(StartGameHeroes.COUNT_ARCHERS_ON_TEAM) + "')";
+                "VALUES ('Undead', '0', 'Necromancer', 'Primary: Reduce damage of another team member by 50% (1 move)','0',"
+                        + "'Attack', '5', '" + StartGameHeroes.STARTING_HEALTH + "','" + Integer
+                        .toString(StartGameHeroes.COUNT_MAGES_ON_TEAM) + "')";
+        String charArcherUndead = "VALUES ('Undead', '0', 'Hunter', 'Primary: Archery', '4', 'Attack', '2'," +
+                "'" + StartGameHeroes.STARTING_HEALTH + "','" + Integer.toString(StartGameHeroes.COUNT_ARCHERS_ON_TEAM)
+                + "')";
         String charWarriorUndead = "VALUES ('Undead', '0', 'Zombie', 'Primary: Attack with a spear', '18'," +
-                "'Attack with a spear', '18', '100','" + Integer.toString(StartGameHeroes.COUNT_WARRIORS_ON_TEAM) + "')";
+                "'Attack with a spear', '18', '" + StartGameHeroes.STARTING_HEALTH + "','" + Integer
+                .toString(StartGameHeroes.COUNT_WARRIORS_ON_TEAM) + "')";
         List<String> undeadTeamChar = new ArrayList<>();
         undeadTeamChar.add(dbCommand + charMagicianUndead);
         undeadTeamChar.add(dbCommand + charArcherUndead);
