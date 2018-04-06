@@ -1,9 +1,15 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Class contains methods, whom return commands for create and fill database
+ */
 public class AddTeams {
 
-    public static void addTableLight() throws Exception {
+    /**
+     * create table LightTeam in database
+     */
+    static void addTableLight() throws Exception {
         DBase.conn();
         AddLog.writeInFile("Begin create table LightTeam");
         String tableLightTeam = "CREATE TABLE if not exists 'LightTeam' ('id' INTEGER PRIMARY KEY AUTOINCREMENT,"
@@ -16,7 +22,10 @@ public class AddTeams {
         DBase.closeDB();
     }
 
-    public static void addTableDark() throws Exception {
+    /**
+     * create table DarkTeam in database
+     */
+    static void addTableDark() throws Exception {
         DBase.conn();
         AddLog.writeInFile("Begin create table DarkTeam");
         String tableDarkTeam = "CREATE TABLE if not exists 'DarkTeam' ('id' INTEGER PRIMARY KEY AUTOINCREMENT,"
@@ -30,11 +39,12 @@ public class AddTeams {
     }
 
 
-    /*
-     *Create Team Elfs
-     *return command for fill table in sqlite
+    /**
+     * Create Team Elfs
+     *
+     * @return command for fill table in sqlite
      */
-    public static List<String> createLightTeamElfs() {
+    static List<String> createLightTeamElfs() {
         String dbCommand = "INSERT INTO 'LightTeam' ('Race', 'Priority','Character','FirstSkillName', " +
                 "'FirstSkillDamage','SecondSkillName','SecondSkillDamage','Health','Count')";
         String charMagicianElf =
@@ -54,7 +64,12 @@ public class AddTeams {
         return elfsTeamChar;
     }
 
-    public static List<String> createLightTeamPeoples() {
+    /**
+     * Create Team Peoples
+     *
+     * @return command for fill table in sqlite
+     */
+    private static List<String> createLightTeamPeoples() {
         String dbCommand = "INSERT INTO 'LightTeam' ('Race', 'Priority','Character','FirstSkillName', " +
                 "'FirstSkillDamage','SecondSkillName','SecondSkillDamage','Health','Count')";
         String charMagicianPeople =
@@ -75,7 +90,12 @@ public class AddTeams {
         return peoplesTeamChar;
     }
 
-    public static List<String> createDarkTeamOrks() {
+    /**
+     * Create Team Peoples
+     *
+     * @return command for fill table in sqlite
+     */
+    static List<String> createDarkTeamOrks() {
         String dbCommand = "INSERT INTO 'DarkTeam' ('Race', 'Priority','Character','FirstSkillName', " +
                 "'FirstSkillDamage','SecondSkillName','SecondSkillDamage','Health','Count')";
         String charMagicianOrk =
@@ -95,7 +115,12 @@ public class AddTeams {
         return orksTeamChar;
     }
 
-    public static List<String> createDarkTeamUndead() {
+    /**
+     * Create Team Peoples
+     *
+     * @return command for fill table in sqlite
+     */
+    private static List<String> createDarkTeamUndead() {
         String dbCommand = "INSERT INTO 'DarkTeam' ('Race', 'Priority','Character','FirstSkillName', " +
                 "'FirstSkillDamage','SecondSkillName','SecondSkillDamage','Health','Count')";
         String charMagicianUndead =
@@ -115,33 +140,53 @@ public class AddTeams {
         return undeadTeamChar;
     }
 
-    public static String selectRandomTeam(String team) {
-        int random = 0;
+    /**
+     * choose team
+     *
+     * @param team - string contains light or dark
+     * @return name of team
+     */
+    static String selectRandomTeam(String team) {
+        int random;
         String raceTeam = "";
         if (team.equals("light")) {
             random = RandomNumber.getRandomLightTeam();
-            if (random == 1) {
-                raceTeam = "Elfs";
-            } else if (random == 2) {
-                raceTeam = "Peoples";
-            } else {
-                System.out.println("Something went wrong, call developer");
+            switch (random) {
+                case 1:
+                    raceTeam = "Elfs";
+                    break;
+                case 2:
+                    raceTeam = "Peoples";
+                    break;
+                default:
+                    System.out.println("Something went wrong, call developer");
+                    break;
             }
         } else if (team.equals("dark")) {
             random = RandomNumber.getRandomDarkTeam();
-            if (random == 1) {
-                raceTeam = "Orks";
-            } else if (random == 2) {
-                raceTeam = "Undead";
-            } else {
-                System.out.println("Something went wrong, call developer");
+            switch (random) {
+                case 1:
+                    raceTeam = "Orks";
+                    break;
+                case 2:
+                    raceTeam = "Undead";
+                    break;
+                default:
+                    System.out.println("Something went wrong, call developer");
+                    break;
             }
         }
         AddLog.writeInFile(raceTeam);
         return raceTeam;
     }
 
-    public static List<String> callSelectedTeam(String team) {
+    /**
+     * based on name of team - crate table team
+     *
+     * @param team name of team
+     * @return list of generated teams
+     */
+    static List<String> callSelectedTeam(String team) {
         List<String> calledTeam = new ArrayList<>();
         switch (team) {
             case "Elfs":

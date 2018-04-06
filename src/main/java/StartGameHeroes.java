@@ -12,6 +12,5 @@ public class StartGameHeroes {
         AddTeams.addTableLight();
         AddTeams.addTableDark();
         Game.playGame();
-
     }
 }

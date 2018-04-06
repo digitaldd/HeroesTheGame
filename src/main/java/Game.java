@@ -3,9 +3,6 @@ import java.util.List;
 
 public class Game {
 
-
-    static boolean attackerSuper = true;
-    static int defendingSuper;
     static int moviesCount; // for attacker side
     static String attackerTable;
     static int attackerId;
@@ -21,7 +18,6 @@ public class Game {
     static int defendingId;
     static String defendingRace;
     static String defendingCharacter;
-    static int defendingPriority;
     static int defendingHealth;
     static String defendingSkillName;
     static int defendingSkillEffect;
@@ -41,39 +37,33 @@ public class Game {
         do {
             selectSide(RandomNumber.getRandomSide()); // select attacker and defending side
             boolean gameStart = getCountStringsInTable(attackerTable) > 0 && getCountStringsInTable(defendingTable) > 0;
-            listCheck.clear();
+            listCheck.clear(); // clear queue
             if (gameStart && !calculateWinner()) {
-                List<Integer> list = CheckRules.checkPriorityRandom();
-                System.out.println(list.toString());
-                moviesCount = getCountStringsInTable(attackerTable);
-               // for (int i = moviesCount - 1; i > 0; i--) {
+                List<Integer> list = CheckRules.checkPriorityRandom(); // list contains attacker id's in random order
+                moviesCount = getCountStringsInTable(attackerTable); // count rows in table
                 for (int i = 0; i < list.size(); i++) {
-                    attackerId = CheckRules.checkStatusSuper();
+                    attackerId = CheckRules.checkStatusSuper(); // check priority
                     if (attackerId == 0 && !listCheck.contains(attackerId)) {
-                        attackerId = list.get(i);
-                    } else {
-                        listCheck.add(attackerId);
-
-                        //System.out.println(list.indexOf(i));
-                        list.remove(i);
+                        attackerId = list.get(i); // get random id
+                        listCheck.add(attackerId); // add to queue
+                    } else if (attackerId > 0) {
+                        listCheck.add(attackerId); // add to queue
                         i--;
                     }
                     defendingId = selectId();//select defending character
                     try {
-                        collectAll(); /* load all information about characters from database*/
+                        collectAll(); // load all information about characters from database
                     } catch (NumberFormatException e) {
                         break;
                     }
                     if (attackerPriority == 1) {
-                        attackerSkillEffect = setSuperDamage();
-                        System.out.println(attackerSkillEffect);
+                        attackerSkillEffect = setSuperDamage(); // 150%
                     }
-                    //checkCharacter();
-                    saveResult("Health", CheckRules.calculateHealth()); //save in database
-                    CheckRules.removeStatusSuper();
+                    CheckRules.reduceDamage(attackerId); // 50%
+                    saveResult(CheckRules.calculateHealth()); //save in database
+                    CheckRules.removeStatusSuper(); // set priority 0
                     CheckRules.checkHealth(); //if health <=0 then delete from table
                     calculateWinner(); // check quantity rows in defendingTable
-                    //moviesCount--;
                 }
             } else if (calculateWinner()) {
                 System.out.println("Game over");
@@ -85,7 +75,11 @@ public class Game {
         DBase.closeDB(); //close connections
     }
 
-    // select side basis of a random number (RandomSide method)
+    /**
+     * select side basis of a random number (RandomSide method)
+     *
+     * @param side - contains random number
+     */
     static void selectSide(int side) {
         AddLog.writeInFile("");
         if (side == 1) {
@@ -101,6 +95,11 @@ public class Game {
         }
     }
 
+    /**
+     * get random id from table
+     *
+     * @return id in int format
+     */
     static int selectId() throws Exception {
         int id;
         try {
@@ -115,39 +114,27 @@ public class Game {
      * this method collect all information about known id in known table and passes their values in class vars
      */
     private static void collectAll() throws Exception {
-        attackerRace = getFieldValue("Race", attackerTable, attackerId);
-        defendingRace = getFieldValue("Race", defendingTable, defendingId);
-        attackerCharacter = getFieldValue("Character", attackerTable, attackerId);
-        defendingCharacter = getFieldValue("Character", defendingTable, defendingId);
-        attackerPriority = Integer.parseInt(getFieldValue("Priority", attackerTable, attackerId));
+        attackerRace = DBase.readDBField("Race", attackerTable, attackerId);
+        defendingRace = DBase.readDBField("Race", defendingTable, defendingId);
+        attackerCharacter = DBase.readDBField("Character", attackerTable, attackerId);
+        defendingCharacter = DBase.readDBField("Character", defendingTable, defendingId);
+        attackerPriority = Integer.parseInt(DBase.readDBField("Priority", attackerTable, attackerId));
         //defendingPriority = Integer.parseInt(getFieldValue("Priority", defendingTable, defendingId));
-        attackerHealth = Integer.parseInt(getFieldValue("Health", attackerTable, attackerId));
-        defendingHealth = Integer.parseInt(getFieldValue("Health", defendingTable, defendingId));
-        attackerSkillName = getFieldValue(selectSkill(), attackerTable, attackerId);
-        defendingSkillName = getFieldValue(selectSkill(), defendingTable, defendingId);
+        attackerHealth = Integer.parseInt(DBase.readDBField("Health", attackerTable, attackerId));
+        defendingHealth = Integer.parseInt(DBase.readDBField("Health", defendingTable, defendingId));
+        attackerSkillName = DBase.readDBField(selectSkill(), attackerTable, attackerId);
+        defendingSkillName = DBase.readDBField(selectSkill(), defendingTable, defendingId);
         attackerSkillEffect = Integer
-                .parseInt(getFieldValue(searchEffectBySkill(attackerSkillName), attackerTable, attackerId));
+                .parseInt(DBase.readDBField(searchEffectBySkill(attackerSkillName), attackerTable, attackerId));
         defendingSkillEffect = Integer
-                .parseInt(getFieldValue(searchEffectBySkill(defendingSkillName), defendingTable, defendingId));
-        attackerCount = Integer.parseInt(getFieldValue("Count", attackerTable, attackerId));
-        defendingCount = Integer.parseInt(getFieldValue("Count", defendingTable, defendingId));
+                .parseInt(DBase.readDBField(searchEffectBySkill(defendingSkillName), defendingTable, defendingId));
+        attackerCount = Integer.parseInt(DBase.readDBField("Count", attackerTable, attackerId));
+        defendingCount = Integer.parseInt(DBase.readDBField("Count", defendingTable, defendingId));
         AddLog.writeInFile("Selected attacker character: " + attackerRace + " " + attackerCharacter + " Count: "
                 + attackerCount + " Health: " + attackerHealth + " Uses the skill: " + attackerSkillName + " "
                 + attackerSkillEffect);
         AddLog.writeInFile("Selected defending character: " + defendingRace + " " + defendingCharacter + " Count: "
                 + defendingCount + " Health: " + defendingHealth);
-    }
-
-    /**
-     * this method create query to database (uses DBase.readDBField) for read value which field
-     *
-     * @param fieldName what field need readed
-     * @param tableName what table need readed
-     * @param id what row contains value
-     * @return field value in String format
-     */
-    static String getFieldValue(String fieldName, String tableName, int id) throws Exception {
-        return DBase.readDBField(fieldName, tableName, id);
     }
 
     /**
@@ -184,12 +171,11 @@ public class Game {
     /**
      * save something in database (uses DBase.updateDB)
      *
-     * @param fieldName what field need correct
      * @param value what value need save
      */
-    static void saveResult(String fieldName, int value) throws Exception {
-        DBase.updateDB(defendingTable, fieldName, value, defendingId);
-        AddLog.writeInFile("Saved done in " + fieldName + " " + value);
+    private static void saveResult(int value) throws Exception {
+        DBase.updateDB(defendingTable, "Health", value, defendingId);
+        AddLog.writeInFile("Saved done in " + "Health" + " " + value);
     }
 
     /**

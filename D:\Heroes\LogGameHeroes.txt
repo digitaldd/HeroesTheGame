@@ -1,21 +1,21 @@
 DataBase connected
 Begin create table LightTeam
 Table created done
-Selected Light Team:2
-Peoples
+Selected Light Team:1
+Elfs
 Fill table done
 ID = 1
-Race = Peoples
+Race = Elf
 Character = Magician
 Count = 1
 
 ID = 2
-Race = Peoples
-Character = Crossbowman
+Race = Elf
+Character = Archer
 Count = 3
 
 ID = 3
-Race = Peoples
+Race = Elf
 Character = Warrior
 Count = 4
 
@@ -47,901 +47,820 @@ All connections closed
 DataBase connected
 
 Get ready: DarkTeam attacks
-Selected attacker character: Orks Archer Count: 3 Health: 100 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Magician Count: 1 Health: 100
-Fill table done
-Saved done in Health 97
-Selected attacker character: Orks Shaman Count: 1 Health: 100 Uses the skill: Take off status Super on character another team 0
-Selected defending character: Peoples Warrior Count: 4 Health: 100
-Character with status Super in LightTeam don't found.
-Fill table done
-Saved done in Health 100
 Selected attacker character: Orks Goblin Count: 4 Health: 100 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Warrior Count: 4 Health: 100
+Selected defending character: Elf Magician Count: 1 Health: 100
 Fill table done
 Saved done in Health 80
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Shaman Count: 1 Health: 100 Uses the skill: Take off status Super on character another team 0
-Selected defending character: Peoples Warrior Count: 4 Health: 80
-Character with status Super in LightTeam don't found.
-Fill table done
-Saved done in Health 80
-Selected attacker character: Orks Archer Count: 3 Health: 100 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Warrior Count: 4 Health: 80
-Fill table done
-Saved done in Health 77
-Selected attacker character: Orks Goblin Count: 4 Health: 100 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Magician Count: 1 Health: 97
-Fill table done
-Saved done in Health 77
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 4 Health: 100 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Magician Count: 1 Health: 77
-Fill table done
-Saved done in Health 57
 Selected attacker character: Orks Archer Count: 3 Health: 100 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Crossbowman Count: 3 Health: 100
+Selected defending character: Elf Magician Count: 1 Health: 80
 Fill table done
-Saved done in Health 98
+Saved done in Health 78
 Selected attacker character: Orks Shaman Count: 1 Health: 100 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Magician Count: 1 Health: 57
+Selected defending character: Elf Archer Count: 3 Health: 100
 Fill table done
 The effect is applied to the character, his ID = 1
 Fill table done
-Saved done in Health 57
+Saved done in Health 100
 
 Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 98 Uses the skill: Primary: Crossbow shoot 5
-Selected defending character: Orks Shaman Count: 1 Health: 100
-Fill table done
-Saved done in Health 95
-Selected attacker character: Peoples Magician Count: 1 Health: 57 Uses the skill: Primary: Add status Super on character his team 0
+Selected attacker character: Elf Warrior Count: 4 Health: 100 Uses the skill: Primary: Attack with a sword 15
 Selected defending character: Orks Archer Count: 3 Health: 100
+Fill table done
+Saved done in Health 85
+Selected attacker character: Elf Archer Count: 3 Health: 100 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Goblin Count: 4 Health: 100
+Fill table done
+Saved done in Health 93
+Selected attacker character: Elf Magician Count: 1 Health: 78 Uses the skill: Magic damage 10
+Selected defending character: Orks Archer Count: 3 Health: 85
+Fill table done
+Saved done in Health 75
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam found. His ID = 1, his attack = 150%
+Selected attacker character: Orks Shaman Count: 1 Health: 100 Uses the skill: Take off status Super on character another team 0
+Selected defending character: Elf Magician Count: 1 Health: 78
+Character with status Super in LightTeam don't found.
+Fill table done
+Saved done in Health 78
+Fill table done
+Selected attacker character: Orks Archer Count: 3 Health: 75 Uses the skill: Primary: Archery 3
+Selected defending character: Elf Warrior Count: 4 Health: 100
+Fill table done
+Saved done in Health 97
+Selected attacker character: Orks Goblin Count: 4 Health: 93 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Elf Archer Count: 3 Health: 100
+Fill table done
+Saved done in Health 80
+Selected attacker character: Orks Shaman Count: 1 Health: 100 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Elf Warrior Count: 4 Health: 97
+Fill table done
+The effect is applied to the character, his ID = 3
+Fill table done
+Saved done in Health 97
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Warrior Count: 4 Health: 97 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 4 Health: 93
+Fill table done
+Saved done in Health 78
+Selected attacker character: Elf Archer Count: 3 Health: 80 Uses the skill: Attack 3
+Selected defending character: Orks Goblin Count: 4 Health: 78
+Fill table done
+Saved done in Health 75
+Selected attacker character: Elf Magician Count: 1 Health: 78 Uses the skill: Magic damage 10
+Selected defending character: Orks Goblin Count: 4 Health: 75
+Fill table done
+Saved done in Health 65
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Magician Count: 1 Health: 78 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Orks Shaman Count: 1 Health: 100
 Fill table done
 The effect is applied to the character, his ID = 1
 Fill table done
 Saved done in Health 100
 Character with status Super in LightTeam found. His ID = 1, his attack = 150%
-Selected attacker character: Peoples Magician Count: 1 Health: 57 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Orks Archer Count: 3 Health: 100
-Fill table done
-The effect is applied to the character, his ID = 1
-Fill table done
-Saved done in Health 100
-Fill table done
-
-Get ready: DarkTeam attacks
-Character with status Super in DarkTeam found. His ID = 1, his attack = 150%
-Selected attacker character: Orks Shaman Count: 1 Health: 95 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Magician Count: 1 Health: 57
-Fill table done
-The effect is applied to the character, his ID = 2
-Fill table done
-Saved done in Health 57
-Fill table done
-Character with status Super in DarkTeam found. His ID = 2, his attack = 150%
-Selected attacker character: Orks Archer Count: 3 Health: 100 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Crossbowman Count: 3 Health: 98
-Fill table done
-Saved done in Health 95
-Fill table done
-Selected attacker character: Orks Archer Count: 3 Health: 100 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Warrior Count: 4 Health: 77
-Fill table done
-Saved done in Health 75
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Magician Count: 1 Health: 57 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Orks Archer Count: 3 Health: 100
+Selected attacker character: Elf Magician Count: 1 Health: 78 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Orks Shaman Count: 1 Health: 100
 Fill table done
 The effect is applied to the character, his ID = 3
 Fill table done
 Saved done in Health 100
+Fill table done
 Character with status Super in LightTeam found. His ID = 3, his attack = 150%
-Selected attacker character: Peoples Warrior Count: 4 Health: 75 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Archer Count: 3 Health: 100
+Selected attacker character: Elf Warrior Count: 4 Health: 97 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Shaman Count: 1 Health: 100
+Fill table done
+Saved done in Health 78
+Fill table done
+Selected attacker character: Elf Warrior Count: 4 Health: 97 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Archer Count: 3 Health: 75
+Fill table done
+Saved done in Health 60
+Selected attacker character: Elf Archer Count: 3 Health: 80 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Goblin Count: 4 Health: 65
+Fill table done
+Saved done in Health 58
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Warrior Count: 4 Health: 97 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Archer Count: 3 Health: 60
+Fill table done
+Saved done in Health 45
+Selected attacker character: Elf Archer Count: 3 Health: 80 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Archer Count: 3 Health: 45
+Fill table done
+Saved done in Health 38
+Selected attacker character: Elf Magician Count: 1 Health: 78 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Orks Shaman Count: 1 Health: 78
+Fill table done
+The effect is applied to the character, his ID = 2
+Fill table done
+Saved done in Health 78
+
+Get ready: LightTeam attacks
+Character with status Super in LightTeam found. His ID = 2, his attack = 150%
+Selected attacker character: Elf Archer Count: 3 Health: 80 Uses the skill: Attack 3
+Selected defending character: Orks Archer Count: 3 Health: 38
+Fill table done
+Saved done in Health 34
+Fill table done
+Selected attacker character: Elf Warrior Count: 4 Health: 97 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Shaman Count: 1 Health: 78
+Fill table done
+Saved done in Health 63
+Selected attacker character: Elf Magician Count: 1 Health: 78 Uses the skill: Magic damage 10
+Selected defending character: Orks Archer Count: 3 Health: 34
+Fill table done
+Saved done in Health 24
+Selected attacker character: Elf Archer Count: 3 Health: 80 Uses the skill: Attack 3
+Selected defending character: Orks Archer Count: 3 Health: 24
+Fill table done
+Saved done in Health 21
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam found. His ID = 3, his attack = 150%
+Selected attacker character: Orks Goblin Count: 4 Health: 58 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Warrior Count: 4 Health: 97
+Fill table done
+Saved done in Health 70
+Fill table done
+Selected attacker character: Orks Goblin Count: 4 Health: 58 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Elf Warrior Count: 4 Health: 70
+Fill table done
+Saved done in Health 50
+Selected attacker character: Orks Archer Count: 3 Health: 21 Uses the skill: Primary: Archery 3
+Selected defending character: Elf Magician Count: 1 Health: 78
+Fill table done
+Saved done in Health 75
+Selected attacker character: Orks Shaman Count: 1 Health: 63 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Elf Magician Count: 1 Health: 75
+Fill table done
+The effect is applied to the character, his ID = 2
+Fill table done
+Saved done in Health 75
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Magician Count: 1 Health: 75 Uses the skill: Magic damage 10
+Selected defending character: Orks Archer Count: 3 Health: 21
+Fill table done
+Saved done in Health 11
+Selected attacker character: Elf Warrior Count: 4 Health: 50 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 4 Health: 58
+Fill table done
+Saved done in Health 43
+Selected attacker character: Elf Archer Count: 3 Health: 80 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Archer Count: 3 Health: 11
+Fill table done
+Saved done in Health 4
+
+Get ready: DarkTeam attacks
+Character with status Super in DarkTeam found. His ID = 2, his attack = 150%
+Selected attacker character: Orks Archer Count: 3 Health: 4 Uses the skill: Attack with knife 2
+Selected defending character: Elf Archer Count: 3 Health: 80
+Fill table done
+Saved done in Health 77
+Fill table done
+Selected attacker character: Orks Goblin Count: 4 Health: 43 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Elf Magician Count: 1 Health: 75
+Fill table done
+Saved done in Health 55
+Selected attacker character: Orks Archer Count: 3 Health: 4 Uses the skill: Primary: Archery 3
+Selected defending character: Elf Warrior Count: 4 Health: 50
+Fill table done
+Saved done in Health 47
+Selected attacker character: Orks Shaman Count: 1 Health: 63 Uses the skill: Take off status Super on character another team 0
+Selected defending character: Elf Magician Count: 1 Health: 55
+Character with status Super in LightTeam don't found.
+Fill table done
+Saved done in Health 55
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Archer Count: 3 Health: 77 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Shaman Count: 1 Health: 63
+Fill table done
+Saved done in Health 56
+Selected attacker character: Elf Warrior Count: 4 Health: 47 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Shaman Count: 1 Health: 56
+Fill table done
+Saved done in Health 41
+Selected attacker character: Elf Magician Count: 1 Health: 55 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Orks Archer Count: 3 Health: 4
+Fill table done
+The effect is applied to the character, his ID = 2
+Fill table done
+Saved done in Health 4
+
+Get ready: DarkTeam attacks
+Selected attacker character: Orks Goblin Count: 4 Health: 43 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Elf Magician Count: 1 Health: 55
+Fill table done
+Saved done in Health 35
+Selected attacker character: Orks Archer Count: 3 Health: 4 Uses the skill: Attack with knife 2
+Selected defending character: Elf Magician Count: 1 Health: 35
+Fill table done
+Saved done in Health 33
+Selected attacker character: Orks Shaman Count: 1 Health: 41 Uses the skill: Take off status Super on character another team 0
+Selected defending character: Elf Archer Count: 3 Health: 77
+Fill table done
+Character in LightTeam loses status Super. His ID = 2, his attack = 100%
+Fill table done
+Saved done in Health 77
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Warrior Count: 4 Health: 47 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Archer Count: 3 Health: 4
+Fill table done
+Saved done in Health -11
+Fill table done
+Fill table done
+Selected attacker character: Elf Magician Count: 1 Health: 33 Uses the skill: Magic damage 10
+Selected defending character: Orks Goblin Count: 4 Health: 43
+Fill table done
+Saved done in Health 33
+Selected attacker character: Elf Archer Count: 3 Health: 77 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Goblin Count: 4 Health: 33
+Fill table done
+Saved done in Health 26
+
+Get ready: DarkTeam attacks
+Selected attacker character: Orks Shaman Count: 1 Health: 41 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Elf Archer Count: 3 Health: 77
+Fill table done
+The effect is applied to the character, his ID = 2
+Fill table done
+Saved done in Health 77
+Character with status Super in DarkTeam found. His ID = 2, his attack = 150%
+Selected attacker character: Orks Archer Count: 2 Health: 89 Uses the skill: Primary: Archery 3
+Selected defending character: Elf Archer Count: 3 Health: 77
 Fill table done
 Saved done in Health 73
 Fill table done
-Selected attacker character: Peoples Warrior Count: 4 Health: 75 Uses the skill: Attack with a sword 18
-Selected defending character: Orks Archer Count: 3 Health: 73
+Selected attacker character: Orks Goblin Count: 4 Health: 26 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Warrior Count: 4 Health: 47
+Fill table done
+Saved done in Health 29
+Selected attacker character: Orks Archer Count: 2 Health: 89 Uses the skill: Attack with knife 2
+Selected defending character: Elf Magician Count: 1 Health: 33
+Fill table done
+Saved done in Health 31
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Magician Count: 1 Health: 31 Uses the skill: Magic damage 10
+Selected defending character: Orks Archer Count: 2 Health: 89
+Fill table done
+Saved done in Health 79
+Selected attacker character: Elf Warrior Count: 4 Health: 29 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Shaman Count: 1 Health: 41
+Fill table done
+Saved done in Health 26
+Selected attacker character: Elf Archer Count: 3 Health: 73 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Archer Count: 2 Health: 79
+Fill table done
+Saved done in Health 72
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Magician Count: 1 Health: 31 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Orks Shaman Count: 1 Health: 26
+Fill table done
+The effect is applied to the character, his ID = 3
+Fill table done
+Saved done in Health 26
+Character with status Super in LightTeam found. His ID = 3, his attack = 150%
+Selected attacker character: Elf Warrior Count: 4 Health: 29 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Shaman Count: 1 Health: 26
+Fill table done
+Saved done in Health 4
+Fill table done
+Selected attacker character: Elf Warrior Count: 4 Health: 29 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Archer Count: 2 Health: 72
+Fill table done
+Saved done in Health 57
+Selected attacker character: Elf Archer Count: 3 Health: 73 Uses the skill: Attack 3
+Selected defending character: Orks Shaman Count: 1 Health: 4
+Fill table done
+Saved done in Health 1
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Warrior Count: 4 Health: 29 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 4 Health: 26
+Fill table done
+Saved done in Health 11
+Selected attacker character: Elf Archer Count: 3 Health: 73 Uses the skill: Attack 3
+Selected defending character: Orks Archer Count: 2 Health: 57
+Fill table done
+Saved done in Health 54
+Selected attacker character: Elf Magician Count: 1 Health: 31 Uses the skill: Magic damage 10
+Selected defending character: Orks Goblin Count: 4 Health: 11
+Fill table done
+Saved done in Health 1
+
+Get ready: DarkTeam attacks
+Selected attacker character: Orks Shaman Count: 1 Health: 1 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Elf Magician Count: 1 Health: 31
+Fill table done
+The effect is applied to the character, his ID = 2
+Fill table done
+Saved done in Health 31
+Character with status Super in DarkTeam found. His ID = 2, his attack = 150%
+Selected attacker character: Orks Archer Count: 2 Health: 54 Uses the skill: Attack with knife 2
+Selected defending character: Elf Magician Count: 1 Health: 31
+Fill table done
+Saved done in Health 28
+Fill table done
+Selected attacker character: Orks Archer Count: 2 Health: 54 Uses the skill: Attack with knife 2
+Selected defending character: Elf Warrior Count: 4 Health: 29
+Fill table done
+Saved done in Health 27
+Selected attacker character: Orks Goblin Count: 4 Health: 1 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Archer Count: 3 Health: 73
 Fill table done
 Saved done in Health 55
 
 Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 4 Health: 100 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Crossbowman Count: 3 Health: 95
-Fill table done
-Saved done in Health 77
-Selected attacker character: Orks Archer Count: 3 Health: 55 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Crossbowman Count: 3 Health: 77
-Fill table done
-Saved done in Health 75
-Selected attacker character: Orks Shaman Count: 1 Health: 95 Uses the skill: Take off status Super on character another team 0
-Selected defending character: Peoples Magician Count: 1 Health: 57
+Selected attacker character: Orks Shaman Count: 1 Health: 1 Uses the skill: Take off status Super on character another team 0
+Selected defending character: Elf Archer Count: 3 Health: 55
 Character with status Super in LightTeam don't found.
 Fill table done
-Saved done in Health 57
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Warrior Count: 4 Health: 75 Uses the skill: Attack with a sword 18
-Selected defending character: Orks Shaman Count: 1 Health: 95
-Fill table done
-Saved done in Health 77
-Selected attacker character: Peoples Magician Count: 1 Health: 57 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Orks Shaman Count: 1 Health: 77
-Fill table done
-The effect is applied to the character, his ID = 2
-Fill table done
-Saved done in Health 77
-Character with status Super in LightTeam found. His ID = 2, his attack = 150%
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 75 Uses the skill: Attack 3
-Selected defending character: Orks Goblin Count: 4 Health: 100
-Fill table done
-Saved done in Health 96
-Fill table done
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Warrior Count: 4 Health: 75 Uses the skill: Attack with a sword 18
-Selected defending character: Orks Shaman Count: 1 Health: 77
-Fill table done
-Saved done in Health 59
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 75 Uses the skill: Attack 3
-Selected defending character: Orks Goblin Count: 4 Health: 96
-Fill table done
-Saved done in Health 93
-Selected attacker character: Peoples Magician Count: 1 Health: 57 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Orks Goblin Count: 4 Health: 93
-Fill table done
-The effect is applied to the character, his ID = 3
-Fill table done
-Saved done in Health 93
-
-Get ready: LightTeam attacks
-Character with status Super in LightTeam found. His ID = 3, his attack = 150%
-Selected attacker character: Peoples Warrior Count: 4 Health: 75 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Archer Count: 3 Health: 55
-Fill table done
-Saved done in Health 28
-Fill table done
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 75 Uses the skill: Attack 3
-Selected defending character: Orks Archer Count: 3 Health: 28
+Saved done in Health 55
+Selected attacker character: Orks Archer Count: 2 Health: 54 Uses the skill: Primary: Archery 3
+Selected defending character: Elf Magician Count: 1 Health: 28
 Fill table done
 Saved done in Health 25
-Selected attacker character: Peoples Warrior Count: 4 Health: 75 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Goblin Count: 4 Health: 93
-Fill table done
-Saved done in Health 75
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Shaman Count: 1 Health: 59 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Crossbowman Count: 3 Health: 75
-Fill table done
-The effect is applied to the character, his ID = 2
-Fill table done
-Saved done in Health 75
-Character with status Super in DarkTeam found. His ID = 2, his attack = 150%
-Selected attacker character: Orks Archer Count: 3 Health: 25 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Warrior Count: 4 Health: 75
-Fill table done
-Saved done in Health 72
-Fill table done
-Selected attacker character: Orks Goblin Count: 4 Health: 75 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Warrior Count: 4 Health: 72
-Fill table done
-Saved done in Health 54
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 4 Health: 75 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Warrior Count: 4 Health: 54
-Fill table done
-Saved done in Health 36
-Selected attacker character: Orks Archer Count: 3 Health: 25 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Crossbowman Count: 3 Health: 75
-Fill table done
-Saved done in Health 72
-Selected attacker character: Orks Shaman Count: 1 Health: 59 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Warrior Count: 4 Health: 36
-Fill table done
-The effect is applied to the character, his ID = 3
-Fill table done
-Saved done in Health 36
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 72 Uses the skill: Attack 3
-Selected defending character: Orks Shaman Count: 1 Health: 59
-Fill table done
-Saved done in Health 56
-Selected attacker character: Peoples Magician Count: 1 Health: 57 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Orks Archer Count: 3 Health: 25
-Fill table done
-The effect is applied to the character, his ID = 2
-Fill table done
-Saved done in Health 25
-Character with status Super in LightTeam found. His ID = 2, his attack = 150%
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 72 Uses the skill: Attack 3
-Selected defending character: Orks Goblin Count: 4 Health: 75
-Fill table done
-Saved done in Health 71
-Fill table done
-
-Get ready: DarkTeam attacks
-Character with status Super in DarkTeam found. His ID = 3, his attack = 150%
-Selected attacker character: Orks Goblin Count: 4 Health: 71 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Magician Count: 1 Health: 57
-Fill table done
-Saved done in Health 27
-Fill table done
-Selected attacker character: Orks Shaman Count: 1 Health: 56 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Warrior Count: 4 Health: 36
-Fill table done
-The effect is applied to the character, his ID = 1
-Fill table done
-Saved done in Health 36
-Character with status Super in DarkTeam found. His ID = 1, his attack = 150%
-Selected attacker character: Orks Shaman Count: 1 Health: 56 Uses the skill: Take off status Super on character another team 0
-Selected defending character: Peoples Warrior Count: 4 Health: 36
-Character with status Super in LightTeam don't found.
-Fill table done
-Saved done in Health 36
-Fill table done
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 72 Uses the skill: Attack 3
-Selected defending character: Orks Shaman Count: 1 Health: 56
-Fill table done
-Saved done in Health 53
-Selected attacker character: Peoples Warrior Count: 4 Health: 36 Uses the skill: Attack with a sword 18
-Selected defending character: Orks Archer Count: 3 Health: 25
+Selected attacker character: Orks Goblin Count: 4 Health: 1 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Magician Count: 1 Health: 25
 Fill table done
 Saved done in Health 7
-Selected attacker character: Peoples Magician Count: 1 Health: 27 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Orks Goblin Count: 4 Health: 71
-Fill table done
-The effect is applied to the character, his ID = 1
-Fill table done
-Saved done in Health 71
-
-Get ready: LightTeam attacks
-Character with status Super in LightTeam found. His ID = 1, his attack = 150%
-Selected attacker character: Peoples Magician Count: 1 Health: 27 Uses the skill: Magic damage 4
-Selected defending character: Orks Archer Count: 3 Health: 7
-Fill table done
-Saved done in Health 1
-Fill table done
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 72 Uses the skill: Attack 3
-Selected defending character: Orks Shaman Count: 1 Health: 53
-Fill table done
-Saved done in Health 50
-Selected attacker character: Peoples Warrior Count: 4 Health: 36 Uses the skill: Attack with a sword 18
-Selected defending character: Orks Shaman Count: 1 Health: 50
-Fill table done
-Saved done in Health 32
 
 Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 4 Health: 71 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Warrior Count: 4 Health: 36
+Selected attacker character: Orks Archer Count: 2 Health: 54 Uses the skill: Attack with knife 2
+Selected defending character: Elf Magician Count: 1 Health: 7
 Fill table done
-Saved done in Health 16
-Selected attacker character: Orks Archer Count: 3 Health: 1 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Magician Count: 1 Health: 27
+Saved done in Health 5
+Selected attacker character: Orks Goblin Count: 4 Health: 1 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Elf Warrior Count: 4 Health: 27
 Fill table done
-Saved done in Health 24
-Selected attacker character: Orks Shaman Count: 1 Health: 32 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Warrior Count: 4 Health: 16
+Saved done in Health 7
+Selected attacker character: Orks Shaman Count: 1 Health: 1 Uses the skill: Take off status Super on character another team 0
+Selected defending character: Elf Archer Count: 3 Health: 55
+Character with status Super in LightTeam don't found.
+Fill table done
+Saved done in Health 55
+
+Get ready: DarkTeam attacks
+Selected attacker character: Orks Goblin Count: 4 Health: 1 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Elf Archer Count: 3 Health: 55
+Fill table done
+Saved done in Health 35
+Selected attacker character: Orks Archer Count: 2 Health: 54 Uses the skill: Primary: Archery 3
+Selected defending character: Elf Magician Count: 1 Health: 5
+Fill table done
+Saved done in Health 2
+Selected attacker character: Orks Shaman Count: 1 Health: 1 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Elf Warrior Count: 4 Health: 7
 Fill table done
 The effect is applied to the character, his ID = 3
 Fill table done
-Saved done in Health 16
+Saved done in Health 7
 
-Get ready: DarkTeam attacks
-Character with status Super in DarkTeam found. His ID = 3, his attack = 150%
-Selected attacker character: Orks Goblin Count: 4 Health: 71 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Warrior Count: 4 Health: 16
+Get ready: LightTeam attacks
+Selected attacker character: Elf Magician Count: 1 Health: 2 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Orks Goblin Count: 4 Health: 1
+Fill table done
+The effect is applied to the character, his ID = 1
+Fill table done
+Saved done in Health 1
+Character with status Super in LightTeam found. His ID = 1, his attack = 150%
+Selected attacker character: Elf Magician Count: 1 Health: 2 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Orks Archer Count: 2 Health: 54
+Fill table done
+The effect is applied to the character, his ID = 3
+Fill table done
+Saved done in Health 54
+Fill table done
+Character with status Super in LightTeam found. His ID = 3, his attack = 150%
+Selected attacker character: Elf Warrior Count: 4 Health: 7 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 4 Health: 1
+Fill table done
+Saved done in Health -21
+Fill table done
+Fill table done
+Fill table done
+Selected attacker character: Elf Warrior Count: 4 Health: 7 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Shaman Count: 1 Health: 1
 Fill table done
 Saved done in Health -14
-Fill table done
-Fill table done
-Fill table done
-Selected attacker character: Orks Goblin Count: 4 Health: 71 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Magician Count: 1 Health: 24
-Fill table done
-Saved done in Health 6
-Selected attacker character: Orks Shaman Count: 1 Health: 32 Uses the skill: Take off status Super on character another team 0
-Selected defending character: Peoples Crossbowman Count: 3 Health: 72
-Character with status Super in LightTeam don't found.
+Deleted from table done
+Selected attacker character: Elf Archer Count: 3 Health: 35 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Goblin Count: 3 Health: 79
 Fill table done
 Saved done in Health 72
 
 Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 4 Health: 71 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Crossbowman Count: 3 Health: 72
+Character with status Super in DarkTeam found. His ID = 3, his attack = 150%
+Selected attacker character: Orks Goblin Count: 3 Health: 72 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Warrior Count: 4 Health: 7
 Fill table done
-Saved done in Health 52
-Selected attacker character: Orks Shaman Count: 1 Health: 32 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Warrior Count: 3 Health: 86
+Saved done in Health -20
+Fill table done
+Fill table done
+Fill table done
+Selected attacker character: Orks Goblin Count: 3 Health: 72 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Elf Warrior Count: 3 Health: 80
+Fill table done
+Saved done in Health 60
+Selected attacker character: Orks Archer Count: 2 Health: 54 Uses the skill: Attack with knife 2
+Selected defending character: Elf Archer Count: 3 Health: 35
+Fill table done
+Saved done in Health 33
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Warrior Count: 3 Health: 60 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 3 Health: 72
+Fill table done
+Saved done in Health 57
+Selected attacker character: Elf Magician Count: 1 Health: 2 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Orks Archer Count: 2 Health: 54
 Fill table done
 The effect is applied to the character, his ID = 1
 Fill table done
-Saved done in Health 86
-Character with status Super in DarkTeam found. His ID = 1, his attack = 150%
-Selected attacker character: Orks Shaman Count: 1 Health: 32 Uses the skill: Take off status Super on character another team 0
-Selected defending character: Peoples Warrior Count: 3 Health: 86
-Character with status Super in LightTeam don't found.
-Fill table done
-Saved done in Health 86
-Fill table done
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Archer Count: 3 Health: 1 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Magician Count: 1 Health: 6
-Fill table done
-Saved done in Health 4
-Selected attacker character: Orks Shaman Count: 1 Health: 32 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Magician Count: 1 Health: 4
-Fill table done
-The effect is applied to the character, his ID = 1
-Fill table done
-Saved done in Health 4
-Character with status Super in DarkTeam found. His ID = 1, his attack = 150%
-Selected attacker character: Orks Shaman Count: 1 Health: 32 Uses the skill: Take off status Super on character another team 0
-Selected defending character: Peoples Crossbowman Count: 3 Health: 52
-Character with status Super in LightTeam don't found.
-Fill table done
-Saved done in Health 52
-Fill table done
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 4 Health: 71 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Warrior Count: 3 Health: 86
-Fill table done
-Saved done in Health 68
-Selected attacker character: Orks Shaman Count: 1 Health: 32 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Warrior Count: 3 Health: 68
-Fill table done
-The effect is applied to the character, his ID = 2
-Fill table done
-Saved done in Health 68
-Character with status Super in DarkTeam found. His ID = 2, his attack = 150%
-Selected attacker character: Orks Archer Count: 3 Health: 1 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Warrior Count: 3 Health: 68
-Fill table done
-Saved done in Health 65
-Fill table done
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Archer Count: 3 Health: 1 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Warrior Count: 3 Health: 65
-Fill table done
-Saved done in Health 63
-Selected attacker character: Orks Goblin Count: 4 Health: 71 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Warrior Count: 3 Health: 63
-Fill table done
-Saved done in Health 45
-Selected attacker character: Orks Shaman Count: 1 Health: 32 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Crossbowman Count: 3 Health: 52
+Saved done in Health 54
+Character with status Super in LightTeam found. His ID = 1, his attack = 150%
+Selected attacker character: Elf Magician Count: 1 Health: 2 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Orks Archer Count: 2 Health: 54
 Fill table done
 The effect is applied to the character, his ID = 3
 Fill table done
-Saved done in Health 52
+Saved done in Health 54
+Fill table done
+Character with status Super in LightTeam found. His ID = 3, his attack = 150%
+Selected attacker character: Elf Warrior Count: 3 Health: 60 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 3 Health: 57
+Fill table done
+Saved done in Health 35
+Fill table done
+Selected attacker character: Elf Archer Count: 3 Health: 33 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Archer Count: 2 Health: 54
+Fill table done
+Saved done in Health 47
+
+Get ready: DarkTeam attacks
+Selected attacker character: Orks Goblin Count: 3 Health: 35 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Warrior Count: 3 Health: 60
+Fill table done
+Saved done in Health 42
+Selected attacker character: Orks Archer Count: 2 Health: 47 Uses the skill: Attack with knife 2
+Selected defending character: Elf Warrior Count: 3 Health: 42
+Fill table done
+Saved done in Health 40
+
+Get ready: DarkTeam attacks
+Selected attacker character: Orks Archer Count: 2 Health: 47 Uses the skill: Primary: Archery 3
+Selected defending character: Elf Warrior Count: 3 Health: 40
+Fill table done
+Saved done in Health 37
+Selected attacker character: Orks Goblin Count: 3 Health: 35 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Elf Warrior Count: 3 Health: 37
+Fill table done
+Saved done in Health 17
 
 Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 52 Uses the skill: Primary: Crossbow shoot 5
-Selected defending character: Orks Archer Count: 3 Health: 1
+Selected attacker character: Elf Warrior Count: 3 Health: 17 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Archer Count: 2 Health: 47
+Fill table done
+Saved done in Health 32
+Selected attacker character: Elf Magician Count: 1 Health: 2 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Orks Goblin Count: 3 Health: 35
+Fill table done
+The effect is applied to the character, his ID = 1
+Fill table done
+Saved done in Health 35
+Character with status Super in LightTeam found. His ID = 1, his attack = 150%
+Selected attacker character: Elf Magician Count: 1 Health: 2 Uses the skill: Primary: Add status Super on character his team 0
+Selected defending character: Orks Archer Count: 2 Health: 32
+Fill table done
+The effect is applied to the character, his ID = 3
+Fill table done
+Saved done in Health 32
+Fill table done
+Character with status Super in LightTeam found. His ID = 3, his attack = 150%
+Selected attacker character: Elf Warrior Count: 3 Health: 17 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Archer Count: 2 Health: 32
+Fill table done
+Saved done in Health 10
+Fill table done
+Selected attacker character: Elf Archer Count: 3 Health: 33 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Archer Count: 2 Health: 10
+Fill table done
+Saved done in Health 3
+
+Get ready: DarkTeam attacks
+Selected attacker character: Orks Archer Count: 2 Health: 3 Uses the skill: Primary: Archery 3
+Selected defending character: Elf Warrior Count: 3 Health: 17
+Fill table done
+Saved done in Health 14
+Selected attacker character: Orks Goblin Count: 3 Health: 35 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Elf Archer Count: 3 Health: 33
+Fill table done
+Saved done in Health 13
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Archer Count: 3 Health: 13 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Archer Count: 2 Health: 3
 Fill table done
 Saved done in Health -4
 Fill table done
 Fill table done
-Selected attacker character: Peoples Magician Count: 1 Health: 4 Uses the skill: Magic damage 4
-Selected defending character: Orks Archer Count: 2 Health: 96
-Fill table done
-Saved done in Health 92
-Selected attacker character: Peoples Warrior Count: 3 Health: 45 Uses the skill: Attack with a sword 18
-Selected defending character: Orks Archer Count: 2 Health: 92
-Fill table done
-Saved done in Health 74
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Warrior Count: 3 Health: 45 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Goblin Count: 4 Health: 71
-Fill table done
-Saved done in Health 53
-Selected attacker character: Peoples Magician Count: 1 Health: 4 Uses the skill: Magic damage 4
-Selected defending character: Orks Shaman Count: 1 Health: 32
-Fill table done
-Saved done in Health 28
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 52 Uses the skill: Primary: Crossbow shoot 5
-Selected defending character: Orks Archer Count: 2 Health: 74
-Fill table done
-Saved done in Health 69
-
-Get ready: DarkTeam attacks
-Character with status Super in DarkTeam found. His ID = 3, his attack = 150%
-Selected attacker character: Orks Goblin Count: 4 Health: 53 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Warrior Count: 3 Health: 45
-Fill table done
-Saved done in Health 15
-Fill table done
-Selected attacker character: Orks Archer Count: 2 Health: 69 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Crossbowman Count: 3 Health: 52
-Fill table done
-Saved done in Health 49
-Selected attacker character: Orks Shaman Count: 1 Health: 28 Uses the skill: Take off status Super on character another team 0
-Selected defending character: Peoples Magician Count: 1 Health: 4
-Character with status Super in LightTeam don't found.
-Fill table done
-Saved done in Health 4
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Shaman Count: 1 Health: 28 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Crossbowman Count: 3 Health: 49
-Fill table done
-The effect is applied to the character, his ID = 2
-Fill table done
-Saved done in Health 49
-Character with status Super in DarkTeam found. His ID = 2, his attack = 150%
-Selected attacker character: Orks Archer Count: 2 Health: 69 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Crossbowman Count: 3 Health: 49
-Fill table done
-Saved done in Health 46
-Fill table done
-Selected attacker character: Orks Goblin Count: 4 Health: 53 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Warrior Count: 3 Health: 15
-Fill table done
-Saved done in Health -3
-Fill table done
-Fill table done
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Shaman Count: 1 Health: 28 Uses the skill: Take off status Super on character another team 0
-Selected defending character: Peoples Magician Count: 1 Health: 4
-Character with status Super in LightTeam don't found.
-Fill table done
-Saved done in Health 4
-Selected attacker character: Orks Archer Count: 2 Health: 69 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Warrior Count: 2 Health: 97
-Fill table done
-Saved done in Health 95
-Selected attacker character: Orks Goblin Count: 4 Health: 53 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Magician Count: 1 Health: 4
-Fill table done
-Saved done in Health -16
-Deleted from table done
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Warrior Count: 2 Health: 95 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Archer Count: 2 Health: 69
-Fill table done
-Saved done in Health 51
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 46 Uses the skill: Primary: Crossbow shoot 5
-Selected defending character: Orks Shaman Count: 1 Health: 28
-Fill table done
-Saved done in Health 23
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Warrior Count: 2 Health: 95 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Archer Count: 2 Health: 51
-Fill table done
-Saved done in Health 33
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 46 Uses the skill: Primary: Crossbow shoot 5
-Selected defending character: Orks Shaman Count: 1 Health: 23
-Fill table done
-Saved done in Health 18
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 46 Uses the skill: Primary: Crossbow shoot 5
-Selected defending character: Orks Goblin Count: 4 Health: 53
-Fill table done
-Saved done in Health 48
-Selected attacker character: Peoples Warrior Count: 2 Health: 95 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Goblin Count: 4 Health: 48
-Fill table done
-Saved done in Health 30
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Archer Count: 2 Health: 33 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Crossbowman Count: 3 Health: 46
-Fill table done
-Saved done in Health 44
-Selected attacker character: Orks Goblin Count: 4 Health: 30 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Warrior Count: 2 Health: 95
-Fill table done
-Saved done in Health 75
-Selected attacker character: Orks Shaman Count: 1 Health: 18 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Warrior Count: 2 Health: 75
-Fill table done
-The effect is applied to the character, his ID = 1
-Fill table done
-Saved done in Health 75
-
-Get ready: DarkTeam attacks
-Character with status Super in DarkTeam found. His ID = 1, his attack = 150%
-Selected attacker character: Orks Shaman Count: 1 Health: 18 Uses the skill: Take off status Super on character another team 0
-Selected defending character: Peoples Warrior Count: 2 Health: 75
-Character with status Super in LightTeam don't found.
-Fill table done
-Saved done in Health 75
-Fill table done
-Selected attacker character: Orks Shaman Count: 1 Health: 18 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Warrior Count: 2 Health: 75
-Fill table done
-The effect is applied to the character, his ID = 2
-Fill table done
-Saved done in Health 75
-Character with status Super in DarkTeam found. His ID = 2, his attack = 150%
-Selected attacker character: Orks Archer Count: 2 Health: 33 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Crossbowman Count: 3 Health: 44
-Fill table done
-Saved done in Health 41
-Fill table done
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 4 Health: 30 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Crossbowman Count: 3 Health: 41
-Fill table done
-Saved done in Health 23
-Selected attacker character: Orks Shaman Count: 1 Health: 18 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Crossbowman Count: 3 Health: 23
-Fill table done
-The effect is applied to the character, his ID = 2
-Fill table done
-Saved done in Health 23
-Character with status Super in DarkTeam found. His ID = 2, his attack = 150%
-Selected attacker character: Orks Archer Count: 2 Health: 33 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Warrior Count: 2 Health: 75
-Fill table done
-Saved done in Health 71
-Fill table done
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Warrior Count: 2 Health: 71 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Archer Count: 2 Health: 33
-Fill table done
-Saved done in Health 15
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 23 Uses the skill: Attack 3
-Selected defending character: Orks Goblin Count: 4 Health: 30
-Fill table done
-Saved done in Health 27
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 23 Uses the skill: Primary: Crossbow shoot 5
-Selected defending character: Orks Shaman Count: 1 Health: 18
-Fill table done
-Saved done in Health 13
-Selected attacker character: Peoples Warrior Count: 2 Health: 71 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Goblin Count: 4 Health: 27
-Fill table done
-Saved done in Health 9
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 23 Uses the skill: Primary: Crossbow shoot 5
-Selected defending character: Orks Archer Count: 2 Health: 15
-Fill table done
-Saved done in Health 10
-Selected attacker character: Peoples Warrior Count: 2 Health: 71 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Goblin Count: 4 Health: 9
-Fill table done
-Saved done in Health -9
-Fill table done
-Fill table done
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 3 Health: 91 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Warrior Count: 2 Health: 71
-Fill table done
-Saved done in Health 51
-Selected attacker character: Orks Shaman Count: 1 Health: 13 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Warrior Count: 2 Health: 51
-Fill table done
-The effect is applied to the character, his ID = 2
-Fill table done
-Saved done in Health 51
-Character with status Super in DarkTeam found. His ID = 2, his attack = 150%
-Selected attacker character: Orks Archer Count: 2 Health: 10 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Crossbowman Count: 3 Health: 23
+Selected attacker character: Elf Warrior Count: 3 Health: 14 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 3 Health: 35
 Fill table done
 Saved done in Health 20
+Selected attacker character: Elf Magician Count: 1 Health: 2 Uses the skill: Magic damage 10
+Selected defending character: Orks Archer Count: 1 Health: 96
 Fill table done
+Saved done in Health 86
+
+Get ready: DarkTeam attacks
+Selected attacker character: Orks Goblin Count: 3 Health: 20 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Elf Archer Count: 3 Health: 13
+Fill table done
+Saved done in Health -7
+Fill table done
+Fill table done
+Selected attacker character: Orks Archer Count: 1 Health: 86 Uses the skill: Attack with knife 2
+Selected defending character: Elf Archer Count: 2 Health: 93
+Fill table done
+Saved done in Health 91
+
+Get ready: DarkTeam attacks
+Selected attacker character: Orks Archer Count: 1 Health: 86 Uses the skill: Attack with knife 2
+Selected defending character: Elf Magician Count: 1 Health: 2
+Fill table done
+Saved done in Health 0
+Deleted from table done
+Selected attacker character: Orks Goblin Count: 3 Health: 20 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Elf Archer Count: 2 Health: 91
+Fill table done
+Saved done in Health 71
 
 Get ready: LightTeam attacks
-Selected attacker character: Peoples Warrior Count: 2 Health: 51 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Archer Count: 2 Health: 10
+Selected attacker character: Elf Archer Count: 2 Health: 71 Uses the skill: Attack 3
+Selected defending character: Orks Archer Count: 1 Health: 86
 Fill table done
-Saved done in Health -8
+Saved done in Health 83
+Selected attacker character: Elf Warrior Count: 3 Health: 14 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Archer Count: 1 Health: 83
 Fill table done
+Saved done in Health 68
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Warrior Count: 3 Health: 14 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 3 Health: 20
 Fill table done
-Selected attacker character: Peoples Crossbowman Count: 3 Health: 20 Uses the skill: Attack 3
-Selected defending character: Orks Archer Count: 1 Health: 92
+Saved done in Health 5
+Selected attacker character: Elf Archer Count: 2 Health: 71 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Archer Count: 1 Health: 68
 Fill table done
-Saved done in Health 89
+Saved done in Health 61
 
 Get ready: DarkTeam attacks
-Selected attacker character: Orks Archer Count: 1 Health: 89 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Crossbowman Count: 3 Health: 20
+Selected attacker character: Orks Goblin Count: 3 Health: 5 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Archer Count: 2 Health: 71
 Fill table done
-Saved done in Health 17
-Selected attacker character: Orks Goblin Count: 3 Health: 91 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Warrior Count: 2 Health: 51
+Saved done in Health 53
+Selected attacker character: Orks Archer Count: 1 Health: 61 Uses the skill: Primary: Archery 3
+Selected defending character: Elf Warrior Count: 3 Health: 14
 Fill table done
-Saved done in Health 33
-Selected attacker character: Orks Shaman Count: 1 Health: 13 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Crossbowman Count: 3 Health: 17
+Saved done in Health 11
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Archer Count: 2 Health: 53 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Goblin Count: 3 Health: 5
 Fill table done
-The effect is applied to the character, his ID = 3
+Saved done in Health -2
 Fill table done
-Saved done in Health 17
+Fill table done
+Selected attacker character: Elf Warrior Count: 3 Health: 11 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 2 Health: 98
+Fill table done
+Saved done in Health 83
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Archer Count: 2 Health: 53 Uses the skill: Attack 3
+Selected defending character: Orks Archer Count: 1 Health: 61
+Fill table done
+Saved done in Health 58
+Selected attacker character: Elf Warrior Count: 3 Health: 11 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 2 Health: 83
+Fill table done
+Saved done in Health 68
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Warrior Count: 3 Health: 11 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 2 Health: 68
+Fill table done
+Saved done in Health 53
+Selected attacker character: Elf Archer Count: 2 Health: 53 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Goblin Count: 2 Health: 53
+Fill table done
+Saved done in Health 46
 
 Get ready: DarkTeam attacks
-Character with status Super in DarkTeam found. His ID = 3, his attack = 150%
-Selected attacker character: Orks Goblin Count: 3 Health: 91 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Crossbowman Count: 3 Health: 17
+Selected attacker character: Orks Goblin Count: 2 Health: 46 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Archer Count: 2 Health: 53
 Fill table done
-Saved done in Health -13
+Saved done in Health 35
+Selected attacker character: Orks Archer Count: 1 Health: 58 Uses the skill: Primary: Archery 3
+Selected defending character: Elf Warrior Count: 3 Health: 11
 Fill table done
+Saved done in Health 8
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Archer Count: 2 Health: 35 Uses the skill: Attack 3
+Selected defending character: Orks Goblin Count: 2 Health: 46
 Fill table done
+Saved done in Health 43
+Selected attacker character: Elf Warrior Count: 3 Health: 8 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Archer Count: 1 Health: 58
 Fill table done
-Selected attacker character: Orks Goblin Count: 3 Health: 91 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Warrior Count: 2 Health: 33
+Saved done in Health 43
+
+Get ready: DarkTeam attacks
+Selected attacker character: Orks Goblin Count: 2 Health: 43 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Archer Count: 2 Health: 35
+Fill table done
+Saved done in Health 17
+Selected attacker character: Orks Archer Count: 1 Health: 43 Uses the skill: Attack with knife 2
+Selected defending character: Elf Archer Count: 2 Health: 17
 Fill table done
 Saved done in Health 15
-Selected attacker character: Orks Shaman Count: 1 Health: 13 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Crossbowman Count: 2 Health: 87
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Warrior Count: 3 Health: 8 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 2 Health: 43
 Fill table done
-The effect is applied to the character, his ID = 3
+Saved done in Health 28
+Selected attacker character: Elf Archer Count: 2 Health: 15 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Goblin Count: 2 Health: 28
 Fill table done
-Saved done in Health 87
+Saved done in Health 21
 
 Get ready: DarkTeam attacks
-Character with status Super in DarkTeam found. His ID = 3, his attack = 150%
-Selected attacker character: Orks Goblin Count: 3 Health: 91 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Warrior Count: 2 Health: 15
+Selected attacker character: Orks Archer Count: 1 Health: 43 Uses the skill: Attack with knife 2
+Selected defending character: Elf Warrior Count: 3 Health: 8
+Fill table done
+Saved done in Health 6
+Selected attacker character: Orks Goblin Count: 2 Health: 21 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Warrior Count: 3 Health: 6
 Fill table done
 Saved done in Health -12
 Fill table done
 Fill table done
-Fill table done
-Selected attacker character: Orks Shaman Count: 1 Health: 13 Uses the skill: Primary: Add status Super on character his team 0
-Selected defending character: Peoples Warrior Count: 1 Health: 88
-Fill table done
-The effect is applied to the character, his ID = 2
-Fill table done
-Saved done in Health 88
-Character with status Super in DarkTeam found. His ID = 2, his attack = 150%
-Selected attacker character: Orks Archer Count: 1 Health: 89 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Warrior Count: 1 Health: 88
-Fill table done
-Saved done in Health 84
-Fill table done
 
 Get ready: LightTeam attacks
-Selected attacker character: Peoples Warrior Count: 1 Health: 84 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Goblin Count: 3 Health: 91
+Selected attacker character: Elf Archer Count: 2 Health: 15 Uses the skill: Attack 3
+Selected defending character: Orks Goblin Count: 2 Health: 21
 Fill table done
-Saved done in Health 73
-Selected attacker character: Peoples Crossbowman Count: 2 Health: 87 Uses the skill: Attack 3
-Selected defending character: Orks Shaman Count: 1 Health: 13
+Saved done in Health 18
+Selected attacker character: Elf Warrior Count: 2 Health: 88 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Archer Count: 1 Health: 43
 Fill table done
-Saved done in Health 10
+Saved done in Health 28
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Warrior Count: 2 Health: 88 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 2 Health: 18
+Fill table done
+Saved done in Health 3
+Selected attacker character: Elf Archer Count: 2 Health: 15 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Archer Count: 1 Health: 28
+Fill table done
+Saved done in Health 21
+
+Get ready: LightTeam attacks
+Selected attacker character: Elf Warrior Count: 2 Health: 88 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Archer Count: 1 Health: 21
+Fill table done
+Saved done in Health 6
+Selected attacker character: Elf Archer Count: 2 Health: 15 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Goblin Count: 2 Health: 3
+Fill table done
+Saved done in Health -4
+Fill table done
+Fill table done
 
 Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 3 Health: 73 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Warrior Count: 1 Health: 84
-Fill table done
-Saved done in Health 64
-Selected attacker character: Orks Shaman Count: 1 Health: 10 Uses the skill: Take off status Super on character another team 0
-Selected defending character: Peoples Warrior Count: 1 Health: 64
-Character with status Super in LightTeam don't found.
-Fill table done
-Saved done in Health 64
-Selected attacker character: Orks Archer Count: 1 Health: 89 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Warrior Count: 1 Health: 64
-Fill table done
-Saved done in Health 62
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 2 Health: 87 Uses the skill: Primary: Crossbow shoot 5
-Selected defending character: Orks Archer Count: 1 Health: 89
-Fill table done
-Saved done in Health 84
-Selected attacker character: Peoples Warrior Count: 1 Health: 62 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Archer Count: 1 Health: 84
-Fill table done
-Saved done in Health 66
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 2 Health: 87 Uses the skill: Attack 3
-Selected defending character: Orks Goblin Count: 3 Health: 73
+Selected attacker character: Orks Goblin Count: 1 Health: 96 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Warrior Count: 2 Health: 88
 Fill table done
 Saved done in Health 70
-Selected attacker character: Peoples Warrior Count: 1 Health: 62 Uses the skill: Attack with a sword 18
-Selected defending character: Orks Shaman Count: 1 Health: 10
+Selected attacker character: Orks Archer Count: 1 Health: 6 Uses the skill: Primary: Archery 3
+Selected defending character: Elf Archer Count: 2 Health: 15
+Fill table done
+Saved done in Health 12
+
+Get ready: DarkTeam attacks
+Selected attacker character: Orks Goblin Count: 1 Health: 96 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Elf Archer Count: 2 Health: 12
 Fill table done
 Saved done in Health -8
-Deleted from table done
+Fill table done
+Fill table done
+Selected attacker character: Orks Archer Count: 1 Health: 6 Uses the skill: Attack with knife 2
+Selected defending character: Elf Archer Count: 1 Health: 92
+Fill table done
+Saved done in Health 90
 
 Get ready: DarkTeam attacks
-Selected attacker character: Orks Archer Count: 1 Health: 66 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Warrior Count: 1 Health: 62
-Fill table done
-Saved done in Health 59
-Selected attacker character: Orks Goblin Count: 3 Health: 70 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Crossbowman Count: 2 Health: 87
-Fill table done
-Saved done in Health 69
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Archer Count: 1 Health: 66 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Crossbowman Count: 2 Health: 69
-Fill table done
-Saved done in Health 66
-Selected attacker character: Orks Goblin Count: 3 Health: 70 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Crossbowman Count: 2 Health: 66
-Fill table done
-Saved done in Health 46
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 2 Health: 46 Uses the skill: Primary: Crossbow shoot 5
-Selected defending character: Orks Archer Count: 1 Health: 66
-Fill table done
-Saved done in Health 61
-Selected attacker character: Peoples Warrior Count: 1 Health: 59 Uses the skill: Attack with a sword 18
-Selected defending character: Orks Goblin Count: 3 Health: 70
+Selected attacker character: Orks Goblin Count: 1 Health: 96 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Warrior Count: 2 Health: 70
 Fill table done
 Saved done in Health 52
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 3 Health: 52 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Warrior Count: 1 Health: 59
-Fill table done
-Saved done in Health 41
-Selected attacker character: Orks Archer Count: 1 Health: 61 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Crossbowman Count: 2 Health: 46
-Fill table done
-Saved done in Health 43
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Warrior Count: 1 Health: 41 Uses the skill: Primary: Attack with a sword 18
-Selected defending character: Orks Archer Count: 1 Health: 61
-Fill table done
-Saved done in Health 43
-Selected attacker character: Peoples Crossbowman Count: 2 Health: 43 Uses the skill: Attack 3
-Selected defending character: Orks Goblin Count: 3 Health: 52
+Selected attacker character: Orks Archer Count: 1 Health: 6 Uses the skill: Primary: Archery 3
+Selected defending character: Elf Warrior Count: 2 Health: 52
 Fill table done
 Saved done in Health 49
 
 Get ready: DarkTeam attacks
-Selected attacker character: Orks Archer Count: 1 Health: 43 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Warrior Count: 1 Health: 41
+Selected attacker character: Orks Goblin Count: 1 Health: 96 Uses the skill: Primary: Attack with a truncheon 20
+Selected defending character: Elf Archer Count: 1 Health: 90
 Fill table done
-Saved done in Health 39
-Selected attacker character: Orks Goblin Count: 3 Health: 49 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Warrior Count: 1 Health: 39
+Saved done in Health 70
+Selected attacker character: Orks Archer Count: 1 Health: 6 Uses the skill: Primary: Archery 3
+Selected defending character: Elf Warrior Count: 2 Health: 49
 Fill table done
-Saved done in Health 19
+Saved done in Health 46
 
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Archer Count: 1 Health: 43 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Crossbowman Count: 2 Health: 43
+Get ready: LightTeam attacks
+Selected attacker character: Elf Warrior Count: 2 Health: 46 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 1 Health: 96
 Fill table done
-Saved done in Health 40
-Selected attacker character: Orks Goblin Count: 3 Health: 49 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Crossbowman Count: 2 Health: 40
+Saved done in Health 81
+Selected attacker character: Elf Archer Count: 1 Health: 70 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Goblin Count: 1 Health: 81
 Fill table done
-Saved done in Health 20
+Saved done in Health 74
 
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 3 Health: 49 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Warrior Count: 1 Health: 19
-Fill table done
-Saved done in Health 1
-Selected attacker character: Orks Archer Count: 1 Health: 43 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Warrior Count: 1 Health: 1
+Get ready: LightTeam attacks
+Selected attacker character: Elf Archer Count: 1 Health: 70 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Archer Count: 1 Health: 6
 Fill table done
 Saved done in Health -1
 Deleted from table done
+Selected attacker character: Elf Warrior Count: 2 Health: 46 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 1 Health: 74
+Fill table done
+Saved done in Health 59
 
 Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 2 Health: 20 Uses the skill: Primary: Crossbow shoot 5
-Selected defending character: Orks Goblin Count: 3 Health: 49
-Fill table done
-Saved done in Health 44
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 3 Health: 44 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Crossbowman Count: 2 Health: 20
-Fill table done
-Saved done in Health 2
-Selected attacker character: Orks Archer Count: 1 Health: 43 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Crossbowman Count: 2 Health: 2
-Fill table done
-Saved done in Health -1
-Fill table done
-Fill table done
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 1 Health: 99 Uses the skill: Primary: Crossbow shoot 5
-Selected defending character: Orks Goblin Count: 3 Health: 44
-Fill table done
-Saved done in Health 39
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 1 Health: 99 Uses the skill: Attack 3
-Selected defending character: Orks Archer Count: 1 Health: 43
-Fill table done
-Saved done in Health 40
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 3 Health: 39 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Crossbowman Count: 1 Health: 99
-Fill table done
-Saved done in Health 81
-Selected attacker character: Orks Archer Count: 1 Health: 40 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Crossbowman Count: 1 Health: 81
-Fill table done
-Saved done in Health 79
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Archer Count: 1 Health: 40 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Crossbowman Count: 1 Health: 79
-Fill table done
-Saved done in Health 76
-Selected attacker character: Orks Goblin Count: 3 Health: 39 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Crossbowman Count: 1 Health: 76
-Fill table done
-Saved done in Health 58
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Archer Count: 1 Health: 40 Uses the skill: Attack with knife 2
-Selected defending character: Peoples Crossbowman Count: 1 Health: 58
+Selected attacker character: Elf Archer Count: 1 Health: 70 Uses the skill: Attack 3
+Selected defending character: Orks Goblin Count: 1 Health: 59
 Fill table done
 Saved done in Health 56
-Selected attacker character: Orks Goblin Count: 3 Health: 39 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Crossbowman Count: 1 Health: 56
+Selected attacker character: Elf Warrior Count: 2 Health: 46 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 1 Health: 56
 Fill table done
-Saved done in Health 36
+Saved done in Health 41
+
+Get ready: DarkTeam attacks
+Selected attacker character: Orks Goblin Count: 1 Health: 41 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Archer Count: 1 Health: 70
+Fill table done
+Saved done in Health 52
 
 Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 1 Health: 36 Uses the skill: Attack 3
-Selected defending character: Orks Archer Count: 1 Health: 40
+Selected attacker character: Elf Warrior Count: 2 Health: 46 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 1 Health: 41
 Fill table done
-Saved done in Health 37
+Saved done in Health 26
+Selected attacker character: Elf Archer Count: 1 Health: 52 Uses the skill: Attack 3
+Selected defending character: Orks Goblin Count: 1 Health: 26
+Fill table done
+Saved done in Health 23
 
 Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 1 Health: 36 Uses the skill: Attack 3
-Selected defending character: Orks Archer Count: 1 Health: 37
+Selected attacker character: Elf Archer Count: 1 Health: 52 Uses the skill: Primary: Archery 7
+Selected defending character: Orks Goblin Count: 1 Health: 23
+Fill table done
+Saved done in Health 16
+Selected attacker character: Elf Warrior Count: 2 Health: 46 Uses the skill: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 1 Health: 16
+Fill table done
+Saved done in Health 1
+
+Get ready: DarkTeam attacks
+Selected attacker character: Orks Goblin Count: 1 Health: 1 Uses the skill: Attack with a sword 18
+Selected defending character: Elf Archer Count: 1 Health: 52
 Fill table done
 Saved done in Health 34
 
 Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 1 Health: 36 Uses the skill: Attack 3
-Selected defending character: Orks Goblin Count: 3 Health: 39
+Selected attacker character: Elf Warrior Count: 2 Health: 46 Uses the skill: Primary: Attack with a sword 15
+Selected defending character: Orks Goblin Count: 1 Health: 1
 Fill table done
-Saved done in Health 36
-
-Get ready: LightTeam attacks
-Selected attacker character: Peoples Crossbowman Count: 1 Health: 36 Uses the skill: Primary: Crossbow shoot 5
-Selected defending character: Orks Archer Count: 1 Health: 34
-Fill table done
-Saved done in Health 29
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 3 Health: 36 Uses the skill: Attack with a sword 18
-Selected defending character: Peoples Crossbowman Count: 1 Health: 36
-Fill table done
-Saved done in Health 18
-Selected attacker character: Orks Archer Count: 1 Health: 29 Uses the skill: Primary: Archery 3
-Selected defending character: Peoples Crossbowman Count: 1 Health: 18
-Fill table done
-Saved done in Health 15
-
-Get ready: DarkTeam attacks
-Selected attacker character: Orks Goblin Count: 3 Health: 36 Uses the skill: Primary: Attack with a truncheon 20
-Selected defending character: Peoples Crossbowman Count: 1 Health: 15
-Fill table done
-Saved done in Health -5
+Saved done in Health -14
 Deleted from table done
-DarkTeam Winner!
-DarkTeam Winner!
+LightTeam Winner!
+LightTeam Winner!
 All connections closed
